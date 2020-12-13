@@ -1,0 +1,47 @@
+/* 
+Colours:
+#3E0F1B - burgundy
+
+#6F2A3B - lighter burgundy / pink-red
+
+#C3B9B5 - cream
+
+#A27448 - light brown
+
+#6C4427 - darker brown
+*/
+body {
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#page-container {
+}
+
+#main {
+  padding: 10px;
+  padding-bottom: 60px;
+}
+
+.banner {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.cappuccino {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 600px;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 20px 10px;
+  background-color: #3e0f1b;
+  color: #c3b9b5;
+}
