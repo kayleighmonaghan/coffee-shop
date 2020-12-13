@@ -78,3 +78,6 @@ table {
 hr {
   border: 1px solid #a27448;
 }
+footer a {
+  padding: 0;
+}
