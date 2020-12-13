@@ -10,6 +10,7 @@ Colours:
 
 #6C4427 - darker brown
 */
+
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
@@ -18,27 +19,61 @@ body {
   background-color: #6f2a3b;
   color: white;
 }
-h1 {
-  margin-top: 0;
-}
+
 nav {
   border: 2px solid #a27448;
   border-radius: 10px;
   padding: 10px 10px 10px 10px;
 }
+
 a {
   color: #c3b9b5;
   text-decoration: none;
   padding: 0 10px 0 0;
 }
+
 a:hover {
   color: #a27448;
 }
+
+h1 {
+  margin-top: 0;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  vertical-align: top;
+}
+
+hr {
+  border: 1px solid #a27448;
+}
+
+footer a {
+  padding: 0 0 0 10px;
+}
+
+.drinks-table,
+.food-table {
+  padding-bottom: 30px;
+}
+
 #main {
   height: 100%;
   margin: 0 auto;
   padding: 20px 10px 60px 10px;
   max-width: 700px;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 20px 10px;
+  background-color: #a27448;
 }
 
 .banner {
@@ -53,31 +88,8 @@ a:hover {
   max-width: 600px;
 }
 
-#footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  padding: 20px 10px;
-  background-color: #a27448;
-}
-.drinks-table,
-.food-table {
-  padding-bottom: 30px;
-}
 .address {
   background-color: #6c4427;
   padding: 10px;
   margin: 0 auto;
-}
-td {
-  vertical-align: top;
-}
-table {
-  width: 100%;
-}
-hr {
-  border: 1px solid #a27448;
-}
-footer a {
-  padding: 0;
 }
