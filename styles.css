@@ -22,12 +22,14 @@ h1 {
   margin-top: 0;
 }
 nav {
-  border: 1px solid #a27448;
+  border: 2px solid #a27448;
   border-radius: 10px;
   padding: 10px 10px 10px 10px;
 }
 a {
-  color: #3e0f1b;
+  color: #c3b9b5;
+  text-decoration: none;
+  padding: 0 10px 0 0;
 }
 a:hover {
   color: #a27448;
@@ -36,7 +38,7 @@ a:hover {
   height: 100%;
   margin: 0 auto;
   padding: 20px 10px 60px 10px;
-  max-width: 80%;
+  max-width: 700px;
 }
 
 .banner {
@@ -58,16 +60,21 @@ a:hover {
   padding: 20px 10px;
   background-color: #a27448;
 }
+.drinks-table,
 .food-table {
   padding-bottom: 30px;
 }
 .address {
-  padding: 30px 30px 100% 30px;
   background-color: #6c4427;
-  width: 100%;
+  padding: 10px;
   margin: 0 auto;
-  max-width: 600px;
 }
 td {
   vertical-align: top;
+}
+table {
+  width: 100%;
+}
+hr {
+  border: 1px solid #a27448;
 }
